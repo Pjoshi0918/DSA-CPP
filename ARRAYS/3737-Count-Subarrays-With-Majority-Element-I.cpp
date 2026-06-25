@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*Time Complexity: O(n²)
+Space Complexity: O(1) */
+
 class Solution {
 public:
     int countMajoritySubarrays(vector<int>& nums, int target) {
