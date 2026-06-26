@@ -1,6 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+LeetCode 641 - Design Circular Deque
+
+Approach:
+- Array-based Circular Deque
+- Uses front and rear pointers
+- Wrap-around using modulo (%)
+
+Time Complexity:
+insertFront()  : O(1)
+insertLast()   : O(1)
+deleteFront()  : O(1)
+deleteLast()   : O(1)
+getFront()     : O(1)
+getRear()      : O(1)
+
+Space Complexity: O(k)
+*/
 
 class MyCircularDeque {
 public:
